@@ -1,0 +1,13 @@
+pandas==2.3.2
+numpy==2.3.3
+scikit-learn==1.7.2
+lightgbm==4.6.0
+joblib==1.5.2
+optuna==4.5.0
+optuna-integration==4.5.0
+category_encoders==2.8.1
+seaborn==0.13.2
+matplotlib==3.10.6
+streamlit==1.49.1
+boto3==1.40.29
+python-dotenv==1.1.1
