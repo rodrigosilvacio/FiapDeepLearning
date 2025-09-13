@@ -13,7 +13,7 @@ from utils.utils import read_csv_s3
 
 # Configuração da página
 st.set_page_config(
-    page_title="Sistema de Matching Vaga-Candidato",
+    page_title="FIAP Sistema de Matching Vaga-Candidato",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
