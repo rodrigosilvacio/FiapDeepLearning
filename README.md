@@ -8,8 +8,32 @@ O sistema processa dados de currículos de candidatos e descrições de vagas, t
 
 O resultado final é uma aplicação interativa construída com Streamlit, que oferece uma interface amigável para recrutadores. Através dela, é possível selecionar uma vaga específica e visualizar uma lista ranqueada de candidatos com base em seu score de compatibilidade, permitindo uma tomada de decisão mais rápida e informada. Este sistema não apenas acelera o processo de matching, mas também busca introduzir uma camada de objetividade e consistência na avaliação de candidatos, complementando a expertise humana com o poder da inteligência artificial.
 
+## 📄 Sobre o modelo utilizado
 
+Queremos apoiar empregadores e candidatos na previsão da compatibilidade entre vagas.
 
+Experiência profissional do candidato
+- Habilidades técnicas listadas no currículo
+- Localização geográfica
+- Nível profissional (Júnior, Pleno, Sênior)
+- Histórico de sucesso de recrutadores e cidades (via Target Encoding)
+- Métricas de Performance
+
+O modelo foi avaliado e apresenta as seguintes métricas:
+- AUC: ~0.87 (Excelente capacidade de discriminação)
+- F1-Score: ~0.68 (Boa precisão e recall balanceados)
+- Acurácia: ~78% (Alta taxa de acertos)
+
+Como Interpretar os Scores
+- Score > 0.8: Candidato altamente compatível
+- Score 0.6 - 0.8: Candidato com boa compatibilidade
+- Score 0.4 - 0.6: Candidato com compatibilidade moderada
+- Score < 0.4: Candidato com baixa compatibilidade
+
+Limitações
+O modelo é baseado em dados históricos e pode ter vieses
+Não considera aspectos subjetivos como fit cultural
+Recomenda-se sempre uma análise manual final do recrutador
 
 ## 🛠️ Stack Utilizada
 
