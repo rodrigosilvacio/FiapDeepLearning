@@ -1,5 +1,21 @@
 # Sistema Inteligente de Matching Vaga-Candidato
 
+## 📄 Solução de Machine Learning para Recrutamento
+
+Nos últimos anos, o mercado de trabalho brasileiro tem mostrado sinais de aquecimento, com mais vagas disponíveis e taxas de desemprego em queda. Esse cenário é positivo, mas também traz um desafio importante: como as empresas podem identificar os candidatos certos em meio a um volume enorme de currículos e inscrições? A triagem manual acaba consumindo muito tempo dos recrutadores e nem sempre garante que os melhores talentos sejam encontrados.
+
+Para enfrentar esse problema, desenvolvemos uma solução baseada em machine learning capaz de tornar o processo de recrutamento mais rápido, objetivo e eficiente. O sistema funciona como um “motor de compatibilidade”: ele analisa os dados dos candidatos — como experiência profissional, habilidades técnicas, localização e nível de senioridade — e cruza essas informações com os requisitos das vagas, identificando quem tem maior compatibilidade.
+
+De forma prática, o recrutador escolhe uma vaga e imediatamente tem acesso a uma lista ranqueada de candidatos, organizada do mais compatível para o menos compatível. Esse ranqueamento é feito por meio de um score de compatibilidade, que varia de 0 a 1. Candidatos com score acima de 0,8 são altamente recomendados; entre 0,6 e 0,8 são bons candidatos; entre 0,4 e 0,6 têm compatibilidade moderada; e abaixo de 0,4 indicam baixa compatibilidade à vaga.
+
+A tecnologia por trás dessa solução foi testada e validada com métricas de desempenho robustas: o modelo alcançou 78% de acurácia, um AUC de 0,87 — que indica excelente capacidade de distinguir bons candidatos — e um F1-Score de 0,68, equilibrando precisão e cobertura. Esses números reforçam a confiabilidade do sistema, que não substitui a análise humana, mas oferece uma base sólida para decisões mais rápidas e assertivas.
+
+Além de reduzir significativamente o tempo de triagem, a ferramenta também traz outros ganhos para a empresa. Ela ajuda a elevar a qualidade das contratações, reduz o risco de vieses subjetivos e dá consistência ao processo seletivo, já que todos os candidatos são avaliados a partir dos mesmos critérios. Outro ponto importante é a escalabilidade: o sistema consegue lidar bem com grandes volumes de candidatos, mantendo a performance e a agilidade.
+
+É claro que algumas limitações existem. O modelo aprende com dados históricos e, por isso, pode herdar certos vieses do passado. Além disso, aspectos subjetivos como fit cultural ou motivação do candidato ainda dependem da análise humana. Por isso, a ferramenta deve ser vista como um apoio ao recrutador, e não como um substituto.
+
+No entanto, o potencial de evolução é grande. A partir dessa base, é possível incluir análises preditivas, criar pools de talentos para diferentes áreas e até sugerir planos de carreira baseados nos perfis dos candidatos. Isso significa que a solução já entrega valor imediato, mas também abre espaço para inovações que podem transformar ainda mais a forma como as empresas contratam.
+
 ## 📄 Descrição do Projeto
 
 Este projeto apresenta um sistema avançado de Machine Learning projetado para otimizar o processo de recrutamento e seleção de talentos. O objetivo principal é automatizar e aprimorar a compatibilidade entre candidatos e vagas disponíveis, utilizando algoritmos de aprendizado de máquina para identificar os "melhores matches" com alta precisão. Em um cenário onde o volume de candidaturas pode ser esmagador, esta ferramenta visa reduzir significativamente o tempo gasto por recrutadores na triagem manual, permitindo que se concentrem em interações mais estratégicas com candidatos qualificados.
